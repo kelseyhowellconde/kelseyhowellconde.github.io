@@ -157,3 +157,54 @@ footer {
     margin-top: 2rem;
     font-size: 0.95rem;
 }
+
+/* Skills section (added) */
+.skills {
+  padding: 3.5rem 2rem;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 1.75rem;
+  color: #6b4423;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: #f0e6d8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(75, 55, 40, 0.08);
+  border-left: 4px solid #8b6f47;
+}
+
+.skill-card h3 {
+  color: #6b4423;
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+  color: #4a3728;
+  font-size: 0.98rem;
+}
+
+.skill-list li::before {
+  content: "•";
+  color: #8b6f47;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
