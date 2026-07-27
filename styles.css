@@ -236,13 +236,6 @@ footer {
   justify-items: center;
 }
 
-@media (min-width: 760px) {
-  .contact-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-}
-
 .contact-card {
   background: #f0e6d8;
   padding: 1.5rem;
