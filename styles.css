@@ -248,9 +248,11 @@ footer {
 
 .contact-info p {
   color: #4a3728;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.7;
   margin-bottom: 0.6rem;
+  text-align: center;
+  word-break: break-word;
 }
 
 .contact-info a {
