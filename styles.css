@@ -96,15 +96,6 @@ h1, h2, h3 {
     padding: 4rem 2rem;
 }
 
-#projects h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #6b4423;
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -163,15 +154,6 @@ footer {
   padding: 3.5rem 2rem;
 }
 
-.skills h2 {
-  text-align: center;
-  margin-bottom: 1.75rem;
-  color: #6b4423;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-}
-
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -215,15 +197,6 @@ footer {
   background: linear-gradient(180deg, #faf6f1 0%, #fffaf7 100%);
 }
 
-#contact h2 {
-  text-align: center;
-  margin-bottom: 1.75rem;
-  color: #6b4423;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-}
-
 .contact-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -263,4 +236,14 @@ footer {
 
 .contact-info a:hover {
   color: #a0826d;
+}
+
+/* Unified section title styling */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #6b4423;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
