@@ -1,6 +1,6 @@
 # kelseyhowellconde.github.io
 
-<div align="center">
+<div style="text-align: center;">
 
 ## About Me
 
