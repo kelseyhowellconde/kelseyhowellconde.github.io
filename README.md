@@ -1,5 +1,7 @@
 # kelseyhowellconde.github.io
 
+<div align="center">
+
 ## About Me
 
 I'm Kelsey Howell-Conde, a Houston-born operations and project coordination professional with 6+ years of experience managing complex, multi-stakeholder workflows across high-volume environments.
@@ -11,3 +13,5 @@ I specialize in operations coordination, implementation support, and project man
 I use AI tools including Claude and ChatGPT daily as a genuine professional practice, not as a novelty. I'm HubSpot Inbound and Service Hub Certified, actively working through additional certifications.
 
 If you're here, thanks for taking a look.
+
+</div>
