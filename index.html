@@ -23,14 +23,16 @@
       .hero h1{font-family:'Playfair Display',serif;font-size:2.75rem;margin:0 0 0.75rem}
       .hero p{margin:0 0 0.5rem}
       .cta-button{display:inline-block;margin-top:0.75rem;color:#faf6f1;text-decoration:underline}
-      .section-title{text-align:left;margin:2rem 0 1rem;color:var(--accent);font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700}
+      /* Center section titles and subheaders */
+      .section-title{text-align:center;margin:2rem 0 1rem;color:var(--accent);font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700}
+      .project h3, .skill-card h3 { text-align:center; margin-top:0 }
       .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;padding:0 1rem 2rem}
       .project{background:var(--card);padding:1.25rem;border-radius:6px;box-shadow:0 2px 5px rgba(0,0,0,0.06);border-left:4px solid #8b6f47}
       .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;padding:0 1rem 2rem}
       .skill-card{background:var(--card);padding:1rem;border-radius:6px;box-shadow:0 2px 5px rgba(0,0,0,0.06);border-left:4px solid #8b6f47}
       .center-row{grid-column:1/-1;display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;padding:0 1rem 2rem}
       footer{background:var(--accent);color:#faf6f1;text-align:center;padding:1.25rem;margin-top:1.5rem}
-      @media(max-width:700px){.hero h1{font-size:1.75rem}.section-title{font-size:1.75rem;text-align:left}}
+      @media(max-width:700px){.hero h1{font-size:1.75rem}.section-title{font-size:1.75rem;text-align:center}}
     </style>
 
     <link rel="stylesheet" href="https://raw.githubusercontent.com/kelseyhowellconde/kelseyhowellconde.github.io/main/styles.css?v=5">
@@ -62,13 +64,13 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p>I'm Kelsey Howell-Conde, a Houston-born operations and project coordination professional with 6+ years of experience managing complex, multi-stakeholder workflows across high-volume environments.</p>
+                <p>I'm Kelsey Howell-Conde, a Houston-born operations and project coordination professional with 6+ years of experience managing complex, multi-stakeholder workflows across high-vo[...]
                 
-                <p>My background is in residential homebuilding, where I coordinated 20+ concurrent client projects across buyers, agents, lenders, title companies, and construction teams. I managed end-to-end workflows and cross-functional coordination across high-volume environments.</p>
+                <p>My background is in residential homebuilding, where I coordinated 20+ concurrent client projects across buyers, agents, lenders, title companies, and construction teams. I manag[...]
                 
-                <p>I specialize in operations coordination, implementation support, and project management, bringing structure, follow-through, and process discipline to every engagement I touch.</p>
+                <p>I specialize in operations coordination, implementation support, and project management, bringing structure, follow-through, and process discipline to every engagement I touch.<[...]
                 
-                <p>I use AI tools such as Claude and ChatGPT daily as part of my professional toolset to accelerate research, draft documentation, and prototype solutions. I'm HubSpot Inbound and Service Hub Certified, actively working through additional certifications.</p>
+                <p>I use AI tools such as Claude and ChatGPT daily as part of my professional toolset to accelerate research, draft documentation, and prototype solutions. I'm HubSpot Inbound and [...]
                 
                 <p>If you're here, thanks for taking a look.</p>
             </div>
@@ -108,7 +110,7 @@
           </article>
 
           <article class="skill-card" role="listitem" aria-labelledby="contract-heading">
-            <h3 id="contract-heading">Contract & E‑Signature</h3>
+            <h3 id="contract-heading">Contract & E3Signature</h3>
             <ul class="skill-list">
               <li>DocuSign</li>
               <li>SignNow</li>
