@@ -22,7 +22,13 @@
       .hero .hero-content{max-width:1200px;margin:0 auto;text-align:center}
       .hero h1{font-family:'Playfair Display',serif;font-size:3.75rem;margin:0 0 0.75rem;text-align:center;line-height:1.05}
       .hero p{margin:0 0 0.5rem}
-      .cta-button{display:inline-block;margin-top:0.75rem;color:#faf6f1;text-decoration:underline}
+
+      /* Button styling used for CTA and project links */
+      .btn{display:inline-block;background:var(--accent);color:#faf6f1;padding:0.6rem 0.9rem;border-radius:8px;text-decoration:none;font-weight:600;border:0;box-shadow:0 6px 18px rgba(107,68,35,0.12);transition:transform .12s ease,box-shadow .12s ease}
+      .btn:hover,.btn:focus{transform:translateY(-2px);box-shadow:0 10px 30px rgba(107,68,35,0.14);outline:none}
+
+      .cta-button{ /* kept for backwards compatibility */ }
+
       /* Center section titles and subheaders */
       .section-title{text-align:center;margin:2rem 0 1rem;color:var(--accent);font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700}
       .project h3, .skill-card h3 { text-align:center; margin-top:0 }
@@ -63,7 +69,7 @@
             <h1>Operations & Project Management Expert</h1>
             <p>Strategic planning, process optimization, and enterprise system implementation</p>
             <p class="hero-subtext">6+ years driving operational excellence at leading homebuilders | Salesforce CRM Strategy | Systems Consolidation</p>
-            <a href="#projects" class="cta-button">View My Work</a>
+            <a href="#projects" class="cta-button btn">View My Work</a>
         </div>
     </section>
 
@@ -92,12 +98,12 @@
                 <p>Salesforce Consolidation Strategy — a CRM implementation playbook proposing a 3-phase roadmap 
    to consolidate 6+ disconnected sales systems into one Salesforce-based workflow, based on 6+ 
    years of new home sales experience at Lennar and Century Communities.</p>
-                <a href="SalesforceImplementationPlaybook.pdf" target="_blank">View Project Report</a>
+                <a class="btn" href="SalesforceImplementationPlaybook.pdf" target="_blank" rel="noopener">View Project Report</a>
             </div>
             <div class="project">
                 <h3>Operations Project Portfolio Dashboard</h3>
                 <p>Analyzed 750 tasks across 30 cross-functional projects in Excel to uncover portfolio health, workload, schedule delays, budget performance, and operational risk.</p>
-                <a href="Operations_Project_Portfolio_Dashboard.xlsx" target="_blank" rel="noopener">Open Dashboard (Excel)</a>
+                <a class="btn" href="Operations_Project_Portfolio_Dashboard.xlsx" target="_blank" rel="noopener">Open Dashboard (Excel)</a>
             </div>
         </div>
     </section>
