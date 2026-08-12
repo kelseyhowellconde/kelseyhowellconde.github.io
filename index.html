@@ -31,7 +31,6 @@
 
       /* Center section titles and subheaders */
       .section-title{text-align:center;margin:2rem 0 1rem;color:var(--accent);font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700}
-      #about .section-title { text-align: center; }
       .project h3, .skill-card h3 { text-align:center; margin-top:0 }
       .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;padding:0 1rem 2rem}
       .project{background:var(--card);padding:1.25rem;border-radius:6px;box-shadow:0 2px 5px rgba(0,0,0,0.06);border-left:4px solid #8b6f47}
@@ -50,6 +49,10 @@
     </style>
 
     <link rel="stylesheet" href="https://raw.githubusercontent.com/kelseyhowellconde/kelseyhowellconde.github.io/main/styles.css?v=5">
+    <style>
+      /* Override external stylesheet for About header to ensure it's centered */
+      #about .section-title { text-align: center !important; }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -145,6 +148,7 @@
             <h3 id="comm-heading">Communication & Meetings</h3>
             <ul class="skill-list">
               <li>Zoom</li>
+              <li>Microsoft Teams</li>
             </ul>
           </article>
 
