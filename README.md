@@ -8,6 +8,13 @@ My background is in residential homebuilding, where I coordinated 20+ concurrent
 
 I specialize in operations coordination, implementation support, and project management, bringing structure, follow-through, and process discipline to every engagement I touch.
 
-I use AI tools including Claude and ChatGPT daily as a genuine professional practice, not as a novelty. I'm HubSpot Inbound and Service Hub Certified, actively working through additional certifica[...]
+I use AI tools including Claude and ChatGPT daily as a genuine professional practice, not as a novelty. I'm HubSpot Inbound and Service Hub Certified, actively working through additional certifications.
 
 If you're here, thanks for taking a look.
+
+---
+
+<h2 align="center">My Projects</h2>
+
+### Pivot Table #1
+[Operations_Project_Portfolio_Dashboard.xlsx](./projects/Operations_Project_Portfolio_Dashboard.xlsx)
